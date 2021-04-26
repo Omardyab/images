@@ -1,0 +1,32 @@
+.figures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.cont{
+    position: relative;
+    width: 1000px; 
+    display:flex;
+    flex-wrap: wrap;
+}
+.cont .area{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    transition: 0.75s;
+}
+.cont .area:hover{
+ z-index: 1;
+ transform: scale(1.35);
+ box-shadow: 5px 0px 5px 0px rgb(59, 96, 216);
+}
+.cont .area .image img{
+    position: absolute;
+    top:0;
+    left:0;    
+    width: 100%;
+    height: 100%;
+    
+}
